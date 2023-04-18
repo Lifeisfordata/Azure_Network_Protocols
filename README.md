@@ -122,14 +122,15 @@ Observe the DNS traffic being show in WireShark
 </p>
 <br />
 
-<img src="https://i.imgur.com/ePexTSH.png)" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Q2KmOxd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Back in Wireshark, filter for DHCP traffic only
+Back in Wireshark, filter for RDP traffic only (tcp.port == 3389)
   
-From your Windows 10 VM, attempt to issue your VM a new IP address from the command line (ipconfig /renew)
+Oserve the immediate non-stop spam of traffic? Why do you think it’s non-stop spamming vs only showing traffic when you do an activity?
   
-Observe the DHCP traffic appearing in WireShark
+Answer: because the RDP (protocol) is constantly showing you a live stream from one computer to another, therefor traffic is always being transmitted
+
 
 </p>
 <br />
